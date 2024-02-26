@@ -1,0 +1,4 @@
+FROM tomcat:9.0.86-jre8
+MAINTAINER asmi <awsgit99@gmaail.com>
+EXPOSE 8080
+COPY target/maven-web-app.war /usr/local/tomcat/webapps/maven-web-app.war
